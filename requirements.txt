@@ -1,6 +1,7 @@
-gdown
 pandas
 numpy
 scikit-learn
 opencv-python
 matplotlib
+tqdm
+urllib3
