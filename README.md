@@ -1,5 +1,15 @@
 # Exploratory data analysis of ultrasound scans
 For my capstone I am building computer vision algorithms to identify objects in ultrasound images. Because we want to be able to scan multiple areas I decided to see if I could make a statistical model to identify different scan locations so we could apply the correct machine learning algorithm autonomously. 
+# Results 
+Using naieve bayes I was able to find a statistically significant difference in the pixel values between ultrasound images of different ultrasound scan locations.
+# Warings
+This will download about 3.5 gigabytes of sample data onto your computer when run. If you want to get rid of this information after you have run the notebook I reccomend running 
+```
+git clean -xdf
+```
+to remove any and all unwanted files from the repository
+
+The notebook depends on some unix command line functions such as `tar`, `rm`, and `tree` to run. I reccomend using windows subsystem for linux or linux itself to run this!
 # Use
 All exploration, data and results are documented in the `notebook.ipynb` file. 
 ## Package management
